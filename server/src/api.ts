@@ -1,6 +1,6 @@
 import Elysia from "elysia";
-import { todosRoutes } from "./routes/todos";
+import { commentsRoutes } from "./routes/comments";
 
 export const api = new Elysia({
 	prefix: "/api",
-}).use(todosRoutes);
+}).use(commentsRoutes);
